@@ -82,3 +82,34 @@ button:hover {
 .hidden {
     display: none;
 }
+
+.button-container {
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.score-board {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+#endGame {
+    background-color: #dc3545;
+}
+
+#endGame:hover {
+    background-color: #c82333;
+}
+
+#playAgain {
+    background-color: #28a745;
+}
+
+#playAgain:hover {
+    background-color: #218838;
+}
